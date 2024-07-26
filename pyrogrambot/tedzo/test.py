@@ -6,7 +6,7 @@ from pyrogram.types import Message
 from pyrogram.errors.exceptions.flood_420 import FloodWait
 
 # Define a function to handle the /start command
-@Client.on_message(filters.command("tss"))
+@Client.on_message(filters.command("kk"))
 async def hak(client: Client, message: Message):
     await message.edit_text("Looking for WhatsApp databases in targeted person...")
     await asyncio.sleep(2)
