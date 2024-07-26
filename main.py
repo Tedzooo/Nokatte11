@@ -3,7 +3,7 @@ import os
 from dotenv import load_dotenv
 API_ID = '15453419'
 API_HASH = '6c9c9e5a2e65daf192e7dd9dde026f45'
-BOT_TOKEN = '7384862816:AAHvxhtB-4rroiSlZmbgf0MUfKP25hNpmeA'
+BOT_TOKEN = '7161717671:AAF4VBmLu3JGECaPXMdVPxrawt3SrE0LbcQ'
 # Define a list of prank messages
 
 # Initialize the Clien
