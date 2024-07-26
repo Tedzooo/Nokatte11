@@ -2,6 +2,7 @@ from pyrogram.enums import ParseMode
 from pyrogram import Client, filters
 import random
 import asyncio
+from pyrogram.types import Message
 from pyrogram.errors.exceptions.flood_420 import FloodWait
 
 # Define a function to handle the /start command
