@@ -34,7 +34,7 @@ KGF_D_BUTTON = [[
 HELP_B =       [[
              InlineKeyboardButton("Font", callback_data="id"),
              InlineKeyboardButton("ShareText", callback_data="id"),
-             InlineKeyboardButton("pdf", callback_data="pdf")
+             InlineKeyboardButton("pdf", callback_data="ttback")
                ]]
 
 KGF_BUTTON = [[
@@ -63,7 +63,7 @@ SMENU_BUTTO = [[
 
 VDENU_BUTTO = [[
               InlineKeyboardButton("Sᴛɪᴄᴋᴇʀ", callback_data="sticker"),
-              InlineKeyboardButton("Vɪᴅᴇᴏ", callback_data="video")
+              InlineKeyboardButton("Vɪᴅᴇᴏ", callback_data="vback")
               ],[
               InlineKeyboardButton("Pʜᴏᴛᴏ", callback_data="photo"),
               InlineKeyboardButton("Dᴇᴛᴀɪʟs", callback_data="id")
