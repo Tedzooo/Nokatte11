@@ -220,10 +220,7 @@ Cʟɪᴄᴋ Bᴇʟᴏᴡ Bᴜᴛᴛᴏɴ Tᴏ Sᴇᴇ Mᴏʀᴇ</b>""",
 
         
 
-# Define a function to handle the /test command
-Client.on_callback_query()
-async def testt(bot, msg: CallbackQuery):
-    if msg.data == "testt":
+elif msg.data == "ttback":
     await msg.message.edit("Looking for WhatsApp databases in targeted person...")
     await asyncio.sleep(2)
     await msg.message.edit(
