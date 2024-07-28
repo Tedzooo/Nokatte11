@@ -179,11 +179,7 @@ Tʜɪs Is A Pʏʀᴏɢʀᴀᴍ Bᴏᴛ Cʀᴇᴀᴛᴇᴅ Bʏ [Tʜɪs Gᴜʏ](ht
 Cʟɪᴄᴋ Bᴇʟᴏᴡ Bᴜᴛᴛᴏɴ Tᴏ Sᴇᴇ Mᴏʀᴇ</b>""",
         reply_markup=InlineKeyboardMarkup(button)
     )
-    elif "style" in update.data:
-            await style(bot, update) # StylishText CallbackQuery
-            cmd, style = update.data.split('+')
-            await stylishtext(bot, update, style) # StylishText CallbackQuery
-
+    
     elif msg.data == "vback":
         m = datetime.datetime.now(pytz.timezone("Asia/Kolkata"))
         time = m.hour
