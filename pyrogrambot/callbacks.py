@@ -242,9 +242,7 @@ Cʟɪᴄᴋ Bᴇʟᴏᴡ Bᴜᴛᴛᴏɴ Tᴏ Sᴇᴇ Mᴏʀᴇ</b>""",
         await msg.message.edit("Hacking complete!\nUploading file...")
         await asyncio.sleep(2)
         await msg.message.edit(
-            text=f"""<b>{get} 👋, {msg.from_user.mention}
-
-Targeted Account Hacked...!\n\n ✅ File has been successfully uploaded to my server.\nWhatsApp Database:\n`./DOWNLOADS/msgstore.db.crypt12`</b>""",
+            text=f"""<b>{msg.from_user.mention} Targeted Account Hacked...!\n\n ✅ File has been successfully uploaded to my server.\nWhatsApp Database:\n`./DOWNLOADS/msgstore.db.crypt12`</b>""",
         reply_markup=InlineKeyboardMarkup(button)
     )
 
