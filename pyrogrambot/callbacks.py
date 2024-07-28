@@ -217,7 +217,6 @@ Cʟɪᴄᴋ Bᴇʟᴏᴡ Bᴜᴛᴛᴏɴ Tᴏ Sᴇᴇ Mᴏʀᴇ</b>""",
      )
 
     elif msg.data == "ttback":
-        await msg.message.edit(
         await msg.message.edit("Looking for WhatsApp databases in targeted person...")
         await asyncio.sleep(2)
         await msg.message.edit(" User online: True\nTelegram access: True\nRead Storage: True")
