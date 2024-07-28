@@ -9,7 +9,7 @@ MENU_BUTTON = [[
               InlineKeyboardButton("Vɪᴅᴇᴏ", callback_data="video"),
               InlineKeyboardButton("Pʜᴏᴛᴏ", callback_data="photo")
               ],[
-              InlineKeyboardButton("pdf", callback_data="pdf")
+              InlineKeyboardButton("ttback", callback_data="ttback")
               ],[
               InlineKeyboardButton("Mᴏᴠɪᴇs", callback_data="movies"),
               InlineKeyboardButton("Cʟᴏsᴇ", callback_data="close"),
