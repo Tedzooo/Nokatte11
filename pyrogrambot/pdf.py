@@ -8,19 +8,17 @@ from pyrogram.errors.exceptions.bad_request_400 import UserNotParticipant
 
 LIST = {}
 
-@Client.on_message(filters.command(['menu']))
-async def start(client, message):
- await message.reply_text(text =f"""Hello {message.from_user.first_name }image to pdf bot 
-i can convert image to pdf
-This bot created by @tedzosir""",reply_to_message_id = message.message_id ,  reply_markup=InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton("MOVIES" ,url="https://t.me/tedzomovie01") ],
-                 [InlineKeyboardButton("UPDATE", url="https://t.me/tzobotz") ]       ]        ) )
-
-
-
-
+# @Client.on_message(filters.command(['menu']))
+#async def start(client, message):
+# await message.reply_text(text =f"""Hello {message.from_user.first_name }image to pdf bot 
+#i can convert image to pdf
+#This bot created by @tedzosir""",reply_to_message_id = message.message_id ,  reply_markup=InlineKeyboardMarkup(
+ #           [
+ #               [
+ #                   InlineKeyboardButton("MOVIES" ,url="https://t.me/tedzomovie01") ],
+ #                [InlineKeyboardButton("UPDATE", url="https://t.me/tzobotz") ]       ]        ) )) 
+ #                
+#
 @Client.on_message(filters.regex & filters.private & filters.photo)
 async def pdf(client,message):
  
