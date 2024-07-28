@@ -19,7 +19,7 @@ LIST = {}
  #                [InlineKeyboardButton("UPDATE", url="https://t.me/tzobotz") ]       ]        ) )) 
  #                
 #
-@Client.on_message(filters.regex & filters.private & filters.photo)
+@Client.on_message(filters.private & filters.photo)
 async def pdf(client,message):
  
  if not isinstance(LIST.get(message.from_user.id), list):
