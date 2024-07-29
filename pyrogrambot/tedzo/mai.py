@@ -78,4 +78,3 @@ async def autopost(_, message):
         print(error)
 
 
-Bot.run()
