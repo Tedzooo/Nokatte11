@@ -1,4 +1,4 @@
-from pyrogram import Client, filters
+from pyrogram import Client, Filters
 MENTION = "[{}](tg://user?id={})"
 MESSAGE = "{} Welcome to [Pyrogram](https://docs.pyrogram.ml/)'s group chat {}!"
 
