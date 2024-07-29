@@ -5,7 +5,7 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 
 
-@Bot.on_message(
+@Client.on_message(
     filters.channel & (
         filters.text |
         filters.audio |
