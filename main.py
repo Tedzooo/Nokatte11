@@ -1,4 +1,5 @@
 from pyrogram import Client
+import asyncio
 import os
 from dotenv import load_dotenv
 API_ID = '15453419'
@@ -19,4 +20,25 @@ app= Client(
     plugins=dict(root="pyrogrambot")
 )
 
+@app.on_message(filters.chat(group_id) & ~filters.me)
+async def process_message(client, message):
+    try:
+        text = message.text.lower()
+        if text in ['hi', 'hello']:
+            sent_message = await message.reply("Hello there, welcome to community.")
+            print(f"Message sent successfully: {sent_message.text}")
+    except Exception as e:
+        print(f"Failed to send message: {e}")
+
+async def main():
+    try:
+        await app.start()
+        print("Bot started")
+        # Keep the bot running
+        while True:
+            await asyncio.sleep(10)
+    except Exception as e:
+        print(f"Error starting bot: {e}")
+    finally:
+        await app.stop()
 app.run()
