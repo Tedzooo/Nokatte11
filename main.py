@@ -8,7 +8,7 @@ BOT_TOKEN = '7161717671:AAF4VBmLu3JGECaPXMdVPxrawt3SrE0LbcQ'
 # Define a list of prank messages
 
 # Initialize the Clien
-
+group_id = -1002006186805
 load_dotenv()
 
 app= Client(
