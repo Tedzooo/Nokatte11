@@ -2,7 +2,7 @@ from pyrogram import Client, filters
 import asyncio
 import os
 from dotenv import load_dotenv
-from vars import *
+from vars import API_ID, API_HASH, BOT_TOKEN
 
 
 # Initialize the Client
