@@ -10,8 +10,8 @@ API_HASH = os.environ.get("API_HASH")
 
 # chat details
 FROM_CHANNELS = set(int(x)
-                    for x in os.environ.get("FROM_CHANNELS", "").split())
-TO_CHATS = set(int(x) for x in os.environ.get("TO_CHATS", "").split())
+                    for x in os.environ.get("-1002190822875", "").split())
+TO_CHATS = set(int(x) for x in os.environ.get("-1002006186805", "").split())
 
 # filters for auto post
 FILTER_TEXT = bool(os.environ.get("FILTER_TEXT", True))
